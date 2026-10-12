@@ -1,0 +1,11 @@
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D'],
+    'C': ['A', 'E'],
+    'D': ['B', 'E'],
+    'E': ['C', 'D']
+}
+
+print("Graph:")
+for node in graph:
+    print(node, "->", graph[node])
